@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\началорезни\началорезни\bin\Debug\началорезни.exe.config
+C:\Users\user\Desktop\началорезни\началорезни\bin\Debug\началорезни.exe
+C:\Users\user\Desktop\началорезни\началорезни\bin\Debug\началорезни.pdb
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\App.g.cs
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни_MarkupCompile.cache
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни_MarkupCompile.lref
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни.g.resources
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни.Properties.Resources.resources
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни.csproj.GenerateResource.cache
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни.exe
+C:\Users\user\Desktop\началорезни\началорезни\obj\Debug\началорезни.pdb

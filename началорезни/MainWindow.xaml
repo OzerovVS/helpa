@@ -1,0 +1,29 @@
+﻿<Window x:Class="началорезни.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:началорезни"
+        mc:Ignorable="d"
+        Title="ЛюблюРезню" Height="416" Width="315">
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="123*"/>
+            <RowDefinition Height="259*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="block4" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Height="80" Width="80" Grid.Row="1" Grid.RowSpan="2" Click="Button_Click1"/>
+        <Button x:Name="block5" Content="" Margin="0,108,0,0" VerticalAlignment="Top" Height="80" HorizontalAlignment="Center" Width="80" Grid.Row="1" Grid.RowSpan="2" Click="Button_Click1"/>
+        <Button x:Name="block6" Content="" Margin="210,108,10,0" VerticalAlignment="Top" Height="80" Grid.Row="1" Grid.RowSpan="2" Click="Button_Click1"/>
+        <Button x:Name="block9" Content="" HorizontalAlignment="Left" Margin="210,75,0,0" VerticalAlignment="Top" Height="80" Width="80" Grid.Row="2" Click="Button_Click1" />
+        <Button x:Name="block8" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" Height="80" Width="80" Margin="0,75,0,0" Grid.Row="2" Click="Button_Click1"/>
+        <Button x:Name="block7" Content="" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Height="80" Width="80" Grid.Row="2" Click="Button_Click1"/>
+        <Button x:Name="block2" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="80" Width="80" Grid.Row="1" Click="Button_Click1"/>
+        <Button x:Name="block3" Content="" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top" Height="80" Width="80" Grid.Row="1" Click="Button_Click1"/>
+        <Button x:Name="block1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="80" Width="80" Margin="10,10,0,0" Click="Button_Click1" Grid.Row="1" FontSize="20" FontFamily="Times New Roman"/>
+        <Button x:Name="start" Content="Начать" HorizontalAlignment="Center" Height="20" Margin="0,200,0,0" VerticalAlignment="Top" Width="100" Grid.Row="2" Click="Button_Click"/>
+        <RadioButton x:Name="o1" Content="Крестик" HorizontalAlignment="Left" Margin="10,200,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <RadioButton x:Name="o2" Content="Нолик" HorizontalAlignment="Left" Margin="10,220,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
