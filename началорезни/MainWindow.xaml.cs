@@ -82,22 +82,32 @@ namespace началорезни
                 (sender as Button).IsEnabled = false;
                 bool hodik = win_li(x);
                 if (hodik != true)
-                    bot(x);
-                else
+                {
+                    hodik = bot(x);
+                }
+                if (hodik == true)
                     itog(x);
             }
             else if (o2.IsChecked == true)
             {
-                (sender as Button).Content = "o ";
-                (sender as Button).IsEnabled = false;
-                bot(x);
-                bool hodik = win_li(x);
-                if (hodik == true)
+                bool hodiki = win_li(x);
+                if (hodiki == true)
+                {
                     itog(x);
+                }
+                else
+                {
+                    (sender as Button).Content = "o ";
+                    (sender as Button).IsEnabled = false;
+                    hodiki = win_li(x);
+                    hodiki = bot(x);
+                    if (hodiki == true)
+                        itog(x);
+                }
             }
 
         }
-        private void bot(Button[] x)
+        private bool bot(Button[] x)
         {
             string hod = "  ";
             if (Opa.c == 1)
@@ -116,12 +126,13 @@ namespace началорезни
                     break;
                 }
             }
+            return win_li(x);
         }
         private bool win_li(Button[] x)
         {
             string k = "x ";
             string n = "o ";
-            bool win = false;
+            bool win;
             win = proverka(k);
             if (proverka(k) == false)
                 win = proverka(n);
